@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accident Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="static/style.css">
+  <style>
+  </style>
+</head>
+
+<body>
+  <h3>Accident Hotspot Map</h3>
+  <div id="map"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <div class="custom">
+    <h2>Customisation</h2>
+    <div class="data">
+      <label for="dataSelect">Show Data of :</label>
+      <select id="dataSelect">
+        <option value="1">Last 1 Year</option>
+        <option value="2">Last 2 Year</option>
+        <option value="3">Last 3 Year</option>
+        <option value="4">Last 4 Year</option>
+        <option value="5">Last 5 Year</option>
+      </select>
+    </div>
+    <div class="checkbox_container">
+      <input type="checkbox" id="accidentProne" />
+      <label for="accidentProne">Show accident Prone Areas</label>
+    </div>
+    <div class="today">
+      Today's accidents :-
+      <img src="https://maps.google.com/mapfiles/ms/icons/green-dot.png">
+    </div>
+
+    <div class="old">
+      Old accidents :-
+      <img src="https://maps.google.com/mapfiles/ms/icons/red-dot.png">
+    </div>
+
+    <div class="report">
+      <h4>Report Accident :-</h4>
+      <p> => If you see an accident, click the button to inform the nearest help center using your location.</p>
+      <div id="locationBox"></div>
+      <button class ="btn" >Report Accident</button>
+    </div>
+  </div>
+  <script src="static/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,168 @@
+ body {
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 85px;
+    background-color: rgb(198 137 108);
+    position: sticky; 
+    top: 0; 
+    z-index: 1000;
+}
+.header h2{
+    position:absolute;
+    font-size: 35px;
+    color: #2a2727;
+    padding-top: 0px;
+}
+.nevigation {
+    display: flex;
+    padding-top: 28px;
+    padding-left: 163vh; 
+}
+.nevigation a{
+    color: #000000;
+    padding-right: 20px;  
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+
+.content h2{
+    padding-left: 10px;
+}
+.content p{
+    padding-left: 10px;
+}
+.overview{
+    margin-top: -54px;
+    width: 930px;
+    height: 250px;
+    border: 4px solid rgb(249, 249, 249);
+    opacity: 1;
+    color: white;
+  font-size: 18px;
+  box-shadow:25px 10px 20px rgba(0, 0, 0, 0.6), -5px -5px 15px rgba(0, 0, 0,5);
+    border-radius: 10px; 
+    margin-left: 55px;
+}
+
+.overview:hover {
+    transform: translateY(-10px); 
+}
+.aim{
+    width: 930px;
+    height: 250px;
+    border: 4px solid rgb(244, 243, 243);
+    color: white;
+    font-size: 18px;
+      box-shadow:25px 10px 20px rgba(0, 0, 0, 0.6), -5px -5px 15px rgba(0, 0, 0,5);                     
+      border-radius: 10px; 
+       margin-left: 55px;
+}
+.aim:hover {
+    transform: translateY(-10px); 
+}
+.features{
+    width: 930px;
+    height: 220px;
+    border: 4px solid rgb(253, 250, 250);
+    font-size: 18px;
+    color: white;
+    font-size: 18px;
+    box-shadow:25px 10px 20px rgba(0, 0, 0, 0.6), -5px -5px 15px rgba(0, 0, 0,5);                     
+     border-radius: 10px; 
+      margin-left: 55px;
+}
+.features:hover {
+    transform: translateY(-10px); 
+}
+
+.first{
+    height: 312px;
+    width: 312px;
+    border: 4px solid rgb(0, 0, 0);
+    box-shadow:25px 10px 20px rgba(0, 0, 0, 0.6), -5px -5px 15px rgba(0, 0, 0,5);                     
+    border-radius: 10px;
+    background-color: white;
+    background-image: url("https://assets.cureus.com/uploads/figure/file/1008621/article_river_0a222a50067b11ef91df7d9fb1af2547-Figure-1.png");
+
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;   
+opacity: 1;
+}
+.second {
+    height: 312px;
+    width: 312px;
+    background-color: white;
+    background-image: url("https://images.news18.com/ibnlive/uploads/2022/05/2-3.png?impolicy=website&width=0&height=0");
+    background-position: center;
+    background-size: contain; 
+    border: 4px solid black;
+    box-shadow:25px 10px 20px rgba(0, 0, 0, 0.6), -5px -5px 15px rgba(0, 0, 0,5);                     
+    border-radius: 10px;
+}
+
+.third{
+    height: 312px;
+    width: 312px;
+    /* border: 2px solid red; */
+    background-color: white;
+    background-image: url("https://pbs.twimg.com/media/GeBfR7Qa0AEd4qT?format=jpg&name=large");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 4px solid black;
+    box-shadow:25px 10px 20px rgba(0, 0, 0, 0.6), -5px -5px 15px rgba(0, 0, 0,5);                     
+    border-radius: 10px;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 70px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+.middle{
+    display: flex;
+    background-image: url("https://images.pexels.com/photos/210182/pexels-photo-210182.jpeg?cs=srgb&dl=pexels-pixabay-210182.jpg&fm=jpg&_gl=1*1x7sfc8*_ga*MjA5NjM3MTAyOC4xNzM1NDY1MTEx*_ga_8JE65Q40S6*MTczNTQ2NTExMC4xLjEuMTczNTQ2NTMyOC4wLjAuMA..");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.74;
+}
+
+.nextpage{
+    width: 400px;
+    height: 50px;
+    border: 4px solid rgb(249, 249, 249);
+    color: rgb(11, 1, 1);
+    font-size: 18px;
+      box-shadow:2px -3px 8px rgb(154 152 152 / 11%), 5px -12px 8px rgba(0, 0, 0, 5)  ;                  
+      border-radius: 10px; 
+       margin-left: 45vh;
+        text-align: center;
+     padding-bottom: 10px;
+     cursor: pointer;
+     margin-top: 35px;
+     padding-top: 7px;
+     background-color: bisque;
+}
+
+.nextpage:hover{ 
+    transform: scale(1.02); /* Scale up the button when clicked */
+}
+
